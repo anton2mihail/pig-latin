@@ -6,8 +6,7 @@ function input() {
     var args = process
         .argv
         .slice(2);
-
-    var result;
+    var result = '';
     for (let i = 0; i < args.length; i++) {
         result += translatePigLatin(args[i]) + " ";
     }
